@@ -1,0 +1,21 @@
+{
+  "name": "basic-html-and-css",
+  "version": "1.0.0",
+  "description": "[Макет](https://www.figma.com/design/LSQSLyeT3qi5XqIct7uvIO/HTML-to-Figma-(Community)?node-id=0-1&t=JwYfW4VUDovsfZ8c-1)",
+  "main": "index.js",
+  "scripts": {
+    "serve": "npx http-server src -p 5500",
+    "test": "npx playwright test --project=chromium",
+    "test:ui": "npx playwright test --ui --project=chromium"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.47.1",
+    "@types/node": "^22.5.5"
+  },
+  "dependencies": {
+    "http-server": "^14.1.1"
+  }
+}

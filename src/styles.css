@@ -25,6 +25,11 @@ p {
 ul {
     list-style-type: none;
     padding: 0;
+    margin: 18px 0;
+}
+
+ul:last-child {
+    margin-bottom: 0;
 }
 
 li {
@@ -76,6 +81,10 @@ li:last-child {
     margin-left: 20px;
 }
 
+.stub {
+    clear: both;
+}
+
 .card {
     background: #F9F9F9;
     padding: 10px;
@@ -98,6 +107,10 @@ li:last-child {
     h3 {
         margin: 0;
     }
+}
+
+.card:last-child {
+    margin-bottom: 0;
 }
 
 #sidebar {
